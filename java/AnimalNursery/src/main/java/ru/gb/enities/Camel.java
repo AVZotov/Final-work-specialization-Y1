@@ -5,7 +5,7 @@ import ru.gb.enities.commands.AnimalCommand;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Camel extends PetAnimal{
+public class Camel extends PackAnimal{
     private String animalKind;
     private final List<AnimalCommand> commands = new ArrayList<>();
     protected Camel(String name) {

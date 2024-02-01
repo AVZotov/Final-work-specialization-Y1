@@ -1,6 +1,8 @@
 package ru.gb.enities.commands;
 
-public class AnimalCommand {
+import java.io.Serializable;
+
+public class AnimalCommand implements Serializable {
     private String command;
 
     public void setCommand(String command){
