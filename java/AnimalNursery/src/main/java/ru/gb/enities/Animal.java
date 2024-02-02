@@ -14,7 +14,7 @@ public abstract class Animal implements Serializable {
         this.name = name;
     }
 
-    public String GetName(){
+    public String getName(){
         return name;
     }
 
@@ -33,6 +33,10 @@ public abstract class Animal implements Serializable {
         }
     }
     public abstract String getType();
+
+    public abstract void print();
+
+    public abstract String getKind();
 }
 
 
